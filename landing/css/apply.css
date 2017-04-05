@@ -1,0 +1,419 @@
+@CHARSET "UTF-8";
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, dialog, figure, footer, header,
+hgroup, menu, nav, section,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border-style:none;
+	font-family:"Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+}
+input, select, textarea{
+	font-size:16px;
+	color:#282828;
+	font-family:"Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+}
+.transparent_class {  
+      filter:alpha(opacity=60);  
+      -moz-opacity:0.6;  
+      -khtml-opacity: 0.6;  
+      opacity: 0.6;  
+}   
+.headnav{
+	position:fixed;
+	width:100%;
+	height:80px;
+	background-color:rgba(0,0,0,0.5);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000,endColorstr=#7f000000);
+	z-index:2;
+}
+
+#head_actiondiv{
+	position:absolute;
+	width:1100px;
+	height:80px;
+	/*border:1px solid #EA0000;*/
+}
+
+#head_actiondiv #nav_logo{
+	position:absolute;
+	left:0px;
+	top:28px;
+}
+
+#head_actiondiv #nav_applybtn{
+	position:absolute;
+	right:125px;
+	top:23px;
+}
+
+#head_actiondiv #nav_buybtn{
+	position:absolute;
+	right:0px;
+	top:23px;
+}
+
+
+/*末尾导航栏*/
+#footernav{
+	width:100%;
+	height:231px;
+	background-color:#1A1A1A;	
+}
+#footer_actiondiv{
+	position:absolute;
+	width:536px;
+	height:231px;
+	/*border:1px solid #EA0000;*/
+	text-align:center;
+}
+#footer_linkimgs{
+	margin:0 auto;
+	position:absolute;
+	left:164px;
+	bottom:165px;	
+}
+#footer_linkimgs a{
+	margin-right:30px;
+}
+#footer_linktexts{
+	margin:0 auto;
+	position:absolute;
+	bottom:120px;
+	left:150.5px;
+	text-align:center;
+}
+#footer_splitline{
+	margin-left:10px;
+	margin-right:10px;
+	float:left;
+}
+#footernav p{
+	font-family:"Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+	font-size:16px;
+	color:#666666;
+	/*margin-right:10px;*/
+	float:left;
+}
+#footer_copyrighten{
+	position:absolute;
+	bottom:72px;
+	left:95.3px;
+	text-align:center;
+}
+#footer_copyrightch{
+	position:absolute;
+	bottom:26px;
+	left:145.8px;
+	text-align:center;
+}
+
+/*主画面*/
+#applymaindiv{
+	width:100%;
+	height:1040px;
+	position:relative;
+}
+#applybg{
+	position:absolute;
+	left:0;
+	top:0;
+	width:2560px;
+	height:1040px;
+}
+#applyActionDiv{
+	position:absolute;
+	width:900px;
+	height:624px;
+	top:270px;
+	background:url(../apply/images/infowin_bg.png);
+}
+#applymaindiv #winhead{
+	width:900px;
+	height:80px;
+}
+#winhead #winheadImg{
+	position:absolute;
+	top:0px;
+}
+#winhead p{
+	position:absolute;
+	top:19px;
+	left:390px;
+	font-size:30px;
+	color:#FFFFFF;
+}
+
+#wincontent{
+	position:relative;
+	height:544px;
+	width:900px;
+}
+#wincontent #applytip{
+	position:absolute;
+	top:20px;
+	left:213px;
+	font-size:16px;
+	color:#F6C07E;
+}
+#wincontent #applyinfo{
+	position:absolute;
+	left:129px;
+	top:52px;
+	color:#FFFFFF;
+}
+#wincontent #applyinfo select{
+	width:494px;
+	height:34px;
+	margin-left:20px;
+	background:rgba(256,256,256,0.23);
+	color:#FFFFFF;
+	margin-bottom:16px;
+	border-style:none;
+}
+#wincontent #applyinfo option{
+	background:rgba(256,256,256,0.23);
+	color:#272727;
+}
+#wincontent #applyinfo #applyplan{
+	width:472px;
+	height:240px;
+	margin-left:20px;
+	margin-bottom:20px;
+	padding:7px 10px 0px 10px;
+	vertical-align:top;
+	background:rgba(256,256,256,0.23);
+	color:#236EEC;
+	font-size:14px;
+	placeholder:"请认真填写体验计划，这是筛选名单的重要依据!可以从以下方面入手：\A1.谈谈对于Sirens的初印象；\A2.设想一个你最倾向使用Sirens的场景（比如我喜欢在夜晚夜深人静的时候独自使用）；\A3.简单介绍下自己，是否是相关行业从业者，接触类似产品年限；\A4.以上内容仅供参考，任何好的想法都可以尽情表达";
+}
+/*#applyplan::-webkit-input-placeholder:after{
+	font-size:14px;
+	color:#236EEC;
+	display:block;
+	content:"请认真填写体验计划，这是筛选名单的重要依据!可以从以下方面入手：\A1.谈谈对于Sirens的初印象；\A2.设想一个你最倾向使用Sirens的场景（比如我喜欢在夜晚夜深人静的时候独自使用）；\A3.简单介绍下自己，是否是相关行业从业者，接触类似产品年限；\A4.以上内容仅供参考，任何好的想法都可以尽情表达";
+}*/
+
+#checkprivacy{
+	position:absolute;
+	left:213px;
+	top:410px;
+	vertical-align:center;
+}
+
+#checkprivacy #check_img{
+	position:absolute;
+	left:0px;
+	top:3px;
+	width:16px;
+	height:16px;
+	margin-right:10px;
+	cursor:pointer;
+}
+#checkprivacy #readingparag{
+	position:absolute;
+	top:0px;
+	left:26px;
+	font-size:16px;
+	color:#FFFFFF;
+	width:224px;
+}
+#checkprivacy #readingparag a{
+	font-size:16px;
+	color:#13F4FF;
+	text-decoration:none;
+}
+
+#wincontent #submit_img{
+	position:absolute;
+	top:448px;
+	left:213px;
+	width:494px;
+	height:46px;
+	cursor:pointer;
+}
+
+/*登录窗口样式*/
+#userloaddiv{
+	position:absolute;
+	visibility:hidden;
+	overflow:hidden;
+	width:500px;
+	height:400px;
+	background:#FFFFFF;
+	z-index:218;
+}
+.linesp{
+	position:absolute;
+	width:8px;
+	height:30px;
+	background:#F6C07E;
+	top:40px;
+	left:40px;
+}
+#userloadclosebtn{
+	position:absolute;
+	visibility:hidden;
+	overflow:hidden;
+	top:-20px;
+	right:-20px;
+	cursor:pointer;
+	z-index:280;
+}
+#userloadtitle{
+	position:absolute;
+	left:58px;
+	top:40px;
+	font-size:30px;
+	color:#282828;
+	line-height:30px;
+}
+
+#userloadform{
+	position:absolute;
+	left:40px;
+	top:100px;
+}
+
+#userloadform input{
+	width:396px;
+	height:52px;
+	padding:0px 10px 0px 10px;*/
+	font-size:16px;
+	background-color:#EFEFEF;
+	color:#282828;
+	margin-bottom:30px;
+	border-style:none;
+	
+}
+#userloadform input::-webkit-input-placeholder{
+	font-size:16px;
+	color:#999999;
+}
+#userloadbtn{
+	position:absolute;
+	left:40px;
+	top:264px;
+	width:420px;
+	height:52px;
+	font-size:24px;
+	background:#EFEFEF;
+	line-height:24px;
+	border-style:none;
+	font-family:"Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+	cursor:pointer;
+}
+#userloadbtn:hover{
+	background:#F6C07E;
+}
+#userloaddiv #loadlinks{
+	position:absolute;
+	left:153px;
+	top:336px;
+}
+#userloaddiv #loadlinks a{
+	float:left;
+	font-size:16px;
+	color:#999999;
+	line-height:24px;
+	text-decoration:none;
+}
+#userloaddiv #loadlinks a:hover{
+	color:#F6C07E;
+}
+#userloaddiv #loadlinks p{
+	float:left;
+	color:#999999;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+
+/*收货地址窗口*/
+#addressinfodiv{
+	position:absolute;
+	visibility:hidden;
+	overflow:hidden;
+	width:600px;
+	height:682px;
+	background:#FFFFFF;
+}
+#addressinfotitle{
+	position:absolute;
+	left:58px;
+	top:40px;
+	font-size:30px;
+	color:#282828;
+	line-height:30px;
+}
+#addressinfoform{
+	position:absolute;
+	left:40px;
+	top:100px;
+	font-size:16px;
+	color:#282828;
+}
+#addressinfoform input{
+	width:400px;
+	height:10px;
+	margin-bottom:30px;
+	margin-left:20px;
+	border-style:none;
+	background:#EFEFEF;
+	padding:18px 10px 18px 10px;
+	font-size:16px;
+}
+#addressinfoform textarea{
+	width:400px;
+	height:108px;
+	margin-bottom:30px;
+	vertical-align:top;
+	margin-left:20px;
+	border-style:none;
+	background:#EFEFEF;
+	padding:18px 10px 0px 10px;
+	font-size:16px;
+}
+#addressinfodiv select{
+	width:200px;
+	height:46px;
+	margin-left:20px;
+	margin-bottom:30px;
+	border-style:none;
+	background:#EFEFEF;
+	vertical-align:center;
+	padding:0px 10px 0px 10px;
+	font-size:16px;
+}
+#addressinfodiv button{
+	/*position:absolute;
+	top:590px;*/
+	width:205px;
+	height:52px;
+	font-size:24px;
+	border-style:none;
+	font-family:"Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+	cursor:pointer;
+}
+#addressinfodiv #saveaddressbtn{
+	position:absolute;
+	top:590px;
+	left:140px;
+	color:#864D07;
+	background:#F6C07E;
+}
+#addressinfodiv #quitbtn{
+	position:absolute;
+	top:590px;
+	left:354px;
+	color:#FFFFFF;
+	background:#B0B0B0;
+}

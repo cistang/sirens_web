@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.fit_box{
+	width:100%;
+	max-width:960px;
+	padding:70px 0;
+	margin:0 auto;
+	color:#C89F62;
+	line-height:2.4;
+}
+
+.black{
+	color:#838383;
+}
+
+#instafeed{
+	width:100%;
+	max-width:860px;
+	margin:0 auto;
+}
+#instafeed li{
+	display:inline-block;
+	margin:30px;
+}
+#instafeed li img{
+	width:150px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width : 640px){
+
+
+
+#instafeed li{
+	display:inline-block;
+	margin:8px;
+}
+#instafeed li img{
+	width:125px;
+}
+
+}

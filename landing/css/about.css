@@ -1,0 +1,174 @@
+@charset "utf-8";
+/* CSS Document */
+
+.about_box{
+	width:100%;
+	max-width:960px;
+	padding:70px 0;
+	margin:0 auto;
+}
+
+.about_txt{
+	color:#C89F62;
+	line-height:2.4;
+}
+
+#about_img_out{
+	width:100%;
+	max-width:400px;
+	margin:40px auto 50px;
+}
+#about_txt{
+	width:100%;
+	max-width:420px;
+	margin:0 auto 30px;
+}
+.about_img{
+	float:left;
+	width:50%;
+}
+
+#good{
+	width:100%;
+	max-width:1190px;
+	padding:70px 0;
+	margin:0 auto;
+}
+#good_img_out{
+	display:table;
+	table-layout:fixed;
+	width:100%;
+	margin:50px 0;
+}
+#good_img_out li{
+	position: relative;
+	overflow: hidden;
+	display:table-cell;
+	padding:115px 0;
+	vertical-align:middle;
+}
+#good_img_out li:after{
+	position: absolute;
+	display: block;
+	width:100%;
+	height:100%;
+	content: "";
+	top: 0;
+	-webkit-transition: all .5s ease-out;
+	-moz-transition: all .5s ease-out;
+	-ms-transition: all .5s ease-out;
+	transition: all .5s ease-out;
+}
+#good_img_out li:first-child:after{
+	background:url(../about/images/good_img01.jpg) no-repeat 50% 50%;
+	background-size:cover;
+}
+#good_img_out li:nth-child(2):after{
+	background:url(../about/images/good_img02.jpg) no-repeat 50% 50%;
+	background-size:cover;
+}
+#good_img_out li:last-child:after{
+	background:url(../about/images/good_img03.jpg) no-repeat 50% 50%;
+	background-size:cover;
+}
+#good_img_out li img{
+	position:relative;
+	width:130px;
+	z-index:100;
+}
+#good_img_out li:hover:after{
+	-webkit-transform: scale(1.12);
+	-moz-transform: scale(1.12);
+	-ms-transform: scale(1.12);
+	transform: scale(1.12);
+}
+
+
+
+
+#step div{
+	display:inline-block;
+	padding:0 2%;
+	font-size:120%;
+	color:#838384;
+}
+
+#step1,#step2,#step3{
+	height:300px;
+}
+.arrow p{
+	line-height:12;
+}
+#step1 ul{
+	position:relative;
+	width:150px;
+	height:100px;
+	margin:30px auto 0;
+}
+#step1 ul li{
+	position:absolute;
+	left:0;
+	top:0;
+}
+
+#step2 ul{
+	position:relative;
+	width:150px;
+	height:100px;
+	margin:30px auto 0;
+}
+#step2 ul li{
+	position:absolute;
+	left:0;
+	top:0;
+}
+
+#step3 ul{
+	position:relative;
+	width:175px;
+	height:100px;
+	margin:30px auto 0;
+}
+#step3 ul li{
+	position:absolute;
+	left:0;
+	top:0;
+}
+
+
+
+
+
+
+@media screen and (max-width : 640px){
+
+
+#about_img_out{
+	margin:10px auto 20px;
+}
+
+#good_img_out li{
+	padding:80px 0;
+}
+#good_img_out li img{
+	width:86%;
+	max-width:100px;
+	margin:0 auto;
+}
+
+.line img{
+	width:80%;
+}
+
+#step div{
+	width:100%;
+	padding:0 0 50px;
+}
+
+#step div.arrow{
+	display: none;
+}
+
+
+
+}

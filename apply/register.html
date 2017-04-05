@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="../css/register.css" media="screen,tv,print">
+	<script type="text/javascript" src="../js/jquery.js"></script>
+	<script type="text/javascript" src="../js/register.js"></script>
+	<script>
+	//预加载图片
+	</script>
+	<title>注册用户</title>
+</head>
+<body>
+	<div class="headnav">
+		<div id="head_actiondiv">
+			<script>
+				setActiveDivMargin("#head_actiondiv");
+			</script>
+			<a id="nav_logo" href="../index.html">
+				<img src="../images/sirens_logo.png">
+			</a>
+			<a id="nav_applybtn" href="../apply/apply.html">
+				<img src="../images/apply_btn.png" alt="申请试用">
+			</a>
+			<a id="nav_buybtn" href="../shop/index.html">
+				<img src="../images/buy_btn.png" alt="购买">
+			</a>
+		</div>
+	</div>
+	<div id="registermaindiv">
+		<img id="registerbg" class="test1" src="images/register_bg.jpg" alt="register_bg.jpg">
+		<script>
+			moveBgImg("#registerbg");
+		</script>
+		<div id="registerActionDiv" class="test1">
+			<script>
+				setActiveDivMarginWd("#registerActionDiv",900);
+			</script>
+			<div id="winhead" class="test1">
+				<img src="images/winhead.png" id="winheadImg" class="test1">
+				<p>注册用户</p>
+			</div>
+			<div id="wincontent" class="test1">
+				<p id="registertip" class="test1">注册用户即可获得申请体验的机会</p>
+				<form id="registerinfo" class="test1">
+					邮&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;箱:<input id="registeremail" name="registeremail" placeholder="邮箱地址"/>
+					<br/>
+					<br/>
+					密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码:<input id="registerpwd" name="registerpwd" type="password" placeholder="设置密码"/>
+					<br/>
+					<br/>
+					重复密码:<input id="repeatpwd" name="repeatpwd" type="password" placeholder="确认密码"/>
+				</form>
+				<div id="checkprivacy" class="test1">
+					<img id="check_img" class="test1" src="images/unchecked.png" onclick="checkPrivacy()">
+					<p id="readingparag" class="test1">我已阅读<a href="../about/privacy.html">《个人信息保护政策》</a>
+				</div>
+				<img id="submit_img" class="test1" src="images/submit_btn.png" onclick="submitRegisterInfo()">
+			</div>
+		</div>
+	</div>
+	<div id="footernav">		
+		<div id="footer_actiondiv">
+			<script>
+				setActiveDivMargin("#footer_actiondiv");
+			</script>
+			<div id="footer_linkimgs">
+				<a href=""><img src="../images/facebook.png"></a> 
+				<a href=""><img src="../images/twitter.png"></a> 
+				<a href=""><img src="../images/pinterest.png"></a>
+			</div>
+			<div id="footer_linktexts">
+				<a href="../about/about.html"><p>ABOUT US</p></a>
+				<img id="footer_splitline" src="../images/splitline.png">
+				<a href="../about/pivacypolicy.html"><p>PRIVACY POLICY</p></a>
+			</div>
+			<div id="footer_copyrighten">
+				<p>Copyright ©2016 Sirenstech.All Rights Reserved</p>
+			</div>
+			<div id="footer_copyrightch">
+				<p>深圳市巡域科技有限公司 版权所有</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

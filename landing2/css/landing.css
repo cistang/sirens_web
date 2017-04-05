@@ -1,0 +1,455 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*头部导航栏*/
+.headnav{
+	position:fixed;
+	width:100%;
+	height:80px;
+	background-color:rgba(0,0,0,0.5);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000,endColorstr=#7f000000);
+	z-index:300;
+}
+
+.head_actiondiv{
+	position:absolute;
+	width:1100px;
+	height:80px;
+	/*border:1px solid #EA0000;*/
+}
+
+.head_actiondiv #nav_logo{
+	position:absolute;
+	left:0px;
+	top:28px;
+}
+
+.head_actiondiv #nav_applybtn{
+	position:absolute;
+	right:125px;
+	top:23px;
+}
+
+.head_actiondiv #nav_buybtn{
+	position:absolute;
+	right:0px;
+	top:23px;
+}
+/*末尾导航栏*/
+#footernav{
+	width:100%;
+	height:231px;
+	background-color:#1A1A1A;	
+}
+#footer_actiondiv{
+	position:absolute;
+	width:536px;
+	height:231px;
+	/*border:1px solid #EA0000;*/
+	text-align:center;
+}
+#footer_linkimgs{
+	margin:0 auto;
+	position:absolute;
+	left:164px;
+	bottom:165px;	
+}
+#footer_linkimgs a{
+	margin-right:30px;
+}
+#footer_linktexts{
+	margin:0 auto;
+	position:absolute;
+	bottom:120px;
+	left:150.5px;
+	text-align:center;
+}
+#footer_splitline{
+	margin-left:10px;
+	margin-right:10px;
+	float:left;
+}
+#footernav p{
+	font-family:"Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+	font-size:16px;
+	color:#666666;
+	/*margin-right:10px;*/
+	float:left;
+}
+#footer_copyrighten{
+	position:absolute;
+	bottom:72px;
+	/*left:95.3px;*/
+	left:14px;
+	text-align:center;
+}
+#footer_copyrighten a{
+	color:#666666;
+	text-decoration:none;
+}
+#footer_copyrightch{
+	position:absolute;
+	bottom:26px;
+	left:145.8px;
+	text-align:center;
+}
+
+/*a:hover{
+	opacity:0.3;
+	color:#0000C6;
+}
+
+a.active{
+	opacity:0.3;
+	color:#000000;
+}*/
+
+/*第一张图*/
+#titleImage{
+	height:852px;
+	width:2560px;
+}
+#titleBg{
+	position:absolute;
+	left:0;
+	top:0;
+	width:2560px;
+	height:852px;
+}
+#titleActionDiv{
+	position:absolute;
+	top:0%;
+	left:0%;
+	width:1100px;
+	height:100%;
+}
+#titleImage p{
+	font-family:"Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+	/*font-size:36px;*/
+	font-weight:bold;
+	color:#F5BF7D;
+	width:Auto;
+	text-align:left;
+}
+#titleImage #title1{
+	position:absolute;
+	/*font-weight:bold;*/
+	top:289px;
+	left:0px;
+	font-size:60px;
+}
+#titleImage #title2{
+	position:absolute;
+	/*font-weight:bold;*/
+	top:400px;
+	left:0px;
+	font-size:24px;
+}
+#titleImage #title3{
+	position:absolute;
+	/*font-weight:bold;*/
+	top:440px;
+	left:0px;
+	font-size:24px;
+}
+#titleImage #ponowbutt{
+	position:absolute;
+	top:460px;
+	left:20px;
+	background-color: #e84608;
+	color: #FFFFFF;
+	height:40px;
+	width:auto;
+	font-family:"Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+	font-size:16px;
+	text-decoration: none;
+	border:1px;
+	z-index:999;
+}
+#brandStoryActionDiv{
+	position:absolute;
+	top:0%;
+	left:0%;
+	width:1100px;
+	height:100%;
+}
+#brandStoryActionDiv #brandStoryTitle{
+	position: absolute;
+	left:0px;
+	top:20px;
+	font-size:32px;
+	font-style:italic;
+	font_weight:bold;
+	text-align:left;
+	line-height: 40px;
+}
+#brandStoryActionDiv #brandStoryText{
+	position: absolute;
+	top:80px;
+	left:0px;
+    text-align:left;
+	font-size: 20px;
+	color:#707070;
+    line-height: 32px;
+}
+#brandStoryActionDiv #spliter-hr{
+	position: absolute;
+	left:0px;
+	bottom:5px;
+	width:100%;
+}
+/*howtobeoustanding文字样式*/
+#textDespActionDiv{
+	position:absolute;
+	top:0%;
+	left:0%;
+	width:1100px;
+	height:100%;
+	/*background-color: #F4F4F4;*/
+	/*border:1px solid #EA0000;*/
+}
+#textDespActionDiv #desptitle{
+	position: absolute;
+	left:0px;
+	top:20px;
+	margin-bottom: 20px;
+	font-size: 50px;
+	text-align: left;
+	line-height: 80px;
+	font-style:italic;
+	font_weight:bold;
+}
+#reddotImg{
+	position: absolute;
+	left:0px;
+	top:90px;
+}
+#textDespActionDiv #leftarrow{
+	position: absolute;
+	left:0px;
+	top:425px;
+	font-size:48px;
+	color:#707070;
+	cursor:pointer;
+	z-index:399;
+}
+#textDespActionDiv #rightarrow{
+	position: absolute;
+	right:0px;
+	top:425px;
+	font-size:48px;
+	color:#707070;
+	cursor:pointer;
+	z-index:399;
+}
+#textDespActionDiv .htbimgtxt_left{
+	position: absolute;
+	left:0px;
+	top:110px;
+}
+#textDespActionDiv .htbimgtxt_right{
+	position: absolute;
+	right:0px;
+	top:110px;
+}
+#textDespActionDiv .sectitle{
+	/*position: absolute;
+	left:0px;
+	top:0px;*/
+	font-size:32px;
+	text-align: left;
+	font-style: italic;
+}
+#textDespActionDiv .detailtext{
+	/*position: absolute;
+	left:0px;
+	top:30px;*/
+	font-size:20px;
+	text-align: left;
+	width:450px;
+	color:#707070;
+}
+/*
+#textDespActionDiv #spliter-hr{
+	position: absolute;
+	left:0px;
+	top:100px;
+	width:100%
+}
+#textDespActionDiv #textparts{
+	position: absolute;
+	left:0px;
+	top:120px;
+}
+#textDespActionDiv .textpart:not(:last-child){
+	margin-right: 40px;
+}
+#textDespActionDiv .textpart{
+	width:330px;
+	float:left;
+	text-align: left;
+}
+#textDespActionDiv .sectitle{
+	font-size: 20px;
+	text-align: left;
+}
+#textDespActionDiv .detailtext{
+	font-size: 16px;
+	color:#707070;
+}
+#textparts .p{
+	margin-bottom:20px;
+}
+*/
+
+/*图片展示区域*/
+#imgsdiv{
+	position: relative;
+	background-color: #FFFFFF;
+	height:460px;
+}
+#imgsdiv #imgsActionDiv{
+	position: absolute;
+	width: 1100px;
+	text-align:left;
+	/*height: auto;*/
+}
+#imgsdiv .leftimg{
+	position: absolute;
+	left:0px;
+	/*margin-right: 30px;*/
+}
+#imgsdiv .rightimg{
+	position: absolute;
+	right:0px;
+	margin-left:30px;
+}
+#imgsActionDiv .showtxt{
+	position: absolute;
+	top:5px;
+	left:10px;
+}
+#imgsActionDiv .showtxttitle{
+	font-size:32px;
+	font-weight:bold;
+	text-align:left;
+	line-height: 40px;
+}
+#imgsActionDiv .showtxtdetail{
+	font-size:20px;
+	text-align: left;
+	line-height: 32px;
+	color:#707070;
+}
+
+/*Innovative Sensitive Feature的文字说明部分*/
+#ISFdiv{
+	position:relative;
+	height:150px;
+	background-color: #FFFFFF;
+}
+#ISFdiv #ISFActionDiv{
+	position: absolute;
+	width:1100px;
+	text-align:left;
+}
+#ISFActionDiv .ISFtitle{
+	/*float:left;*/
+	font-style: italic;
+}
+#ISFActionDiv #ISFtitle1{
+	font-size:32px;
+	font-weight:bold;
+	line-height:40px;
+	float:left;
+}
+#ISFActionDiv #ISFtitle2{
+	font-size:24px;
+	line-height:40px;
+}
+#ISFActionDiv .ISFtext{
+	font-size:20px;
+	color:#707070;
+}
+
+/*视频区域*/
+#videodiv {
+	position: relative;
+	height: 650px;
+	background-color: #FFFFFF;
+}
+
+/*material guaranteed区域*/
+#mgdiv{
+	position: relative;
+	height:800px;
+}
+#mgdiv #mgActionDiv{
+	position: absolute;
+	width: 1100px;
+	top:0px;
+}
+#mgActionDiv .sectitle{
+	text-align: left;
+	font-size: 32px;
+	font-style: italic;
+	font-weight: bold;
+	line-height:80px;
+}
+#mgActionDiv .detailtext{
+	text-align: left;
+	font-size:20px;
+	color:#707070;
+	width:500px;
+}
+/*注册框,固定在底部*/
+#regdiv{
+	position:fixed;
+	bottom: 0px;
+	width:100%;
+	height:100px;
+	z-index:300;
+}
+#regdiv #regActionDiv{
+	position: absolute;
+	width: 1100px;
+	height:100px;
+	background-color:rgba(0,0,0,0.7);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000,endColorstr=#7f000000);
+	text-align: center;
+}
+#regActionDiv p{
+	font-size:32px;
+	color:#FFFFFF;
+}
+#regActionDiv #regform{
+	/*position: absolute;*/
+	top:60px;
+	left:20px;
+}
+#regform input{
+	width: 470px;
+	float:left;
+	margin-left:10px;
+	font-size: 22px;
+}
+#regActionDiv button{
+	width: 100px;
+	height:32px;
+	float:left;
+	margin-left:10px;
+	font-size:16px;
+	color:#e84608;
+	border: 2px solid #e84608;
+	cursor:pointer;
+}
+
+.blur{
+	/*-webkit-filter: blur(10px);
+       -moz-filter: blur(10px);
+        -ms-filter: blur(10px);    
+            filter: blur(10px);    
+            filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='3');*/
+	-webkit-filter:opacity(0.55);
+}
+

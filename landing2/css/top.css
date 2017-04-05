@@ -1,0 +1,493 @@
+@charset "utf-8";
+/* CSS Document */
+
+#loader{
+    width: 100px;
+    height: 100px;
+    display: none;
+    position: fixed;
+    _position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    z-index: 510;
+}
+#fade{
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: #fff;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 500;
+}
+
+
+#content_top{
+	position:fixed;
+	/*width:100%;
+	height:100%;*/
+	width:2560px;
+	height:852px;
+	z-index:90;
+}
+
+#bird_box{
+}
+#bird_box ul li{
+	width:100px;
+	height:100px;
+	margin-top:-50px;
+	margin-left:-50px;
+	position:absolute;
+	z-index:200;
+}
+#bird05{
+	left:12%;
+	top:35%;
+	display:none;
+}
+#bird04{
+	left:31%;
+	top:44%;
+	display:none;
+}
+#bird03{
+	left:48.5%;
+	top:47.2%;
+	display:none;
+}
+#bird02{
+	left:50%;
+	top:50%;
+	display:none;
+}
+#bird01{
+	left:50%;
+	top:50%;
+	display:none;
+}
+#top_logo{
+	position:absolute;
+	left:50%;
+	top:50%;
+	display:none;
+	margin-left:-24px;
+	margin-top:-241px;
+	z-index:190;
+}
+
+
+#top_img_stop{
+	max-width:820px;
+	padding:0 10px;
+	box-sizing:border-box;
+	margin:0 auto;
+	text-align:right;
+}
+#top_img_stop_in{
+	width:100%;
+	height:100%;
+	position:relative;
+	z-index:180;
+}
+#top_title{
+	width:12.5%;
+	position:absolute;
+	left:6%;
+	bottom:47.5%;
+	display:none;
+}
+#top_title_hukidashi{
+	width:8.3%;
+	position:absolute;
+	left:12.5%;
+	bottom:66%;
+	display:none;
+}
+#top_img01{
+	position:relative;
+	width:16.8%;
+	float:right;
+	display:none;
+}
+#top_img02{
+	width:20.6%;
+	position:absolute;
+	right:38%;
+	bottom:0;
+	display:none;
+}
+#top_img03{
+	width:25%;
+	position:absolute;
+	left:0;
+	bottom:0.2%;
+	display:none;
+}
+
+#bird_box.winh_d ul li{
+	width:50px;
+	height:50px;
+	margin-top:-25px;
+	margin-left:-25px;
+}
+#bird_box.winh_d ul li img{
+	width:50px;
+	height:50px;
+}
+#top_logo.winh_d{
+	margin-left:-12px;
+	margin-top:-120px;
+}
+#top_logo.winh_d img{
+	width:24px;
+}
+
+
+#top_btn_box{
+	width:100%;
+	position:relative;
+	z-index:100;
+}
+
+#down_arrow{
+	padding:20px 0;
+}
+
+.top_btn_movie_out{
+	position:relative;
+	width:100%;
+	height:520px;
+	overflow:hidden;
+	z-index:100;
+}
+.top_btn_movie{
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:100;
+}
+#top_btn_movie_cm{
+	position:relative;
+	width:100%;
+	height:640px;
+	overflow:hidden;
+	background:url(../images/movie_cm_img.jpg) no-repeat center center;
+	background-size:cover;
+	z-index:100;
+}
+#top_btn_movie_cm_in{
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:100;
+}
+.top_btn_movie_txt_out{
+	display: table;
+	width:100%;
+	max-width:960px;
+	height:100%;
+	margin:0 auto;
+}
+.top_btn_movie_txt{
+	position:relative;
+	display:table-cell;
+	height:100%;
+	padding:0 5%;
+	box-sizing:border-box;
+	vertical-align:middle;
+	font-size:123.1%;
+	z-index:110;
+}
+.top_btn_movie_cm_txt{
+	padding-bottom:10px;
+	font-size:300%;
+	letter-spacing:2px;
+	line-height:1.1;
+}
+.top_btn_movie_txt_big{
+	padding-bottom:10px;
+}
+
+#top_btn_movie_about{
+	background:url(../images/movie_about_img.jpg) no-repeat center center;
+	background-size:cover;
+	color:#707070;
+}
+#top_btn_movie_skill{
+	background:url(../images/movie_skill_img.jpg) no-repeat center center;
+	background-size:cover;
+	color:#ffffff;
+}
+#top_btn_movie_skill .top_btn_movie_txt{
+	vertical-align:bottom;
+	padding-bottom:80px;
+}
+#top_btn_movie_bird{
+	background:url(../images/movie_bird_img.jpg) no-repeat center center;
+	background-size:cover;
+	color:#ffffff;
+}
+
+
+
+#top_lineup{
+	display:table;
+	width:100%;
+	height:723px;
+	background-color:#ffffff;
+	color:#707070;
+	border-bottom:1px solid #e3bf8b;
+}
+#top_lineup_img{
+	display:table-cell;
+	width:50%;
+	height:723px;
+	background:url(../images/lineup_img.jpg) no-repeat center center;
+	background-size:cover;
+}
+#top_lineup_txt{
+	display:table-cell;
+	width:50%;
+	height:723px;
+	vertical-align:middle;
+}
+#lineup_bin{
+	display:table;
+	margin:20px auto 40px;
+}
+#lineup_bin li{
+	display:table-cell;
+	vertical-align:bottom;
+}
+#lineup_bin li a{
+	opacity:1;
+	text-decoration:none;
+}
+#lineup_bin02{
+	width:90px;
+	padding:20px 18px 10px;
+	-webkit-transition: all .5s ease-out;
+	-moz-transition: all .5s ease-out;
+	-ms-transition: all .5s ease-out;
+	transition: all .5s ease-out;
+}
+#lineup_bin01{
+	width:73px;
+	padding:20px 32px 10px;
+	-webkit-transition: all .5s ease-out;
+	-moz-transition: all .5s ease-out;
+	-ms-transition: all .5s ease-out;
+	transition: all .5s ease-out;
+}
+#lineup_bin02:hover , #lineup_bin01:hover{
+	-webkit-transform: scale(1.04);
+	-moz-transform: scale(1.04);
+	-ms-transform: scale(1.04);
+	transform: scale(1.04);
+}
+
+#top_fit{
+	position:relative;
+	width:100%;
+	height:520px;
+	z-index:100;
+	color:#ffffff;
+}
+#top_fit .top_btn_movie_txt{
+	vertical-align:bottom;
+	padding-bottom:80px;
+	text-shadow: 0px 0px 4px rgba(0,0,0,0.8);
+}
+
+#top_fit_img{
+	position:absolute;
+	display:table;
+	table-layout:fixed;
+	width:100%;
+	height:520px;
+	top:0;
+	left:0;
+}
+#top_fit_img ul{
+	display:table-row;
+	height:260px;
+}
+#top_fit_img ul li{
+	display:table-cell;
+	height:260px;
+}
+#top_fit_img ul li div{
+	width:100%;
+	height:260px;
+}
+
+#top_fit_img ul:first-child li:first-child{
+	background:url(../newimages/female_fit_01.jpg) no-repeat center center;
+	background-size:cover;
+}
+#top_fit_img ul:first-child li:first-child div{
+	background:url(../newimages/female_fit_02.jpg) no-repeat center center;
+	background-size:cover;
+}
+#top_fit_img ul:first-child li:nth-child(2){
+	background:url(../newimages/male_fit_01.jpg) no-repeat center center;
+	background-size:cover;
+}
+#top_fit_img ul:first-child li:nth-child(2) div{
+	background:url(../newimages/female_fit_01.jpg) no-repeat center center;
+	background-size:cover;
+}
+#top_fit_img ul:first-child li:last-child{
+	background:url(../newimages/female_fit_02.jpg) no-repeat center center;
+	background-size:cover;
+}
+#top_fit_img ul:first-child li:last-child div{
+	background:url(../newimages/male_fit_01.jpg) no-repeat center center;
+	background-size:cover;
+}
+#top_fit_img ul:last-child li:first-child{
+	background:url(../newimages/female_fit_01.jpg) no-repeat center center;
+	background-size:cover;
+}
+#top_fit_img ul:last-child li:first-child div{
+	background:url(../newimages/female_fit_02.jpg) no-repeat center center;
+	background-size:cover;
+}
+#top_fit_img ul:last-child li:nth-child(2){
+	background:url(../newimages/male_fit_01.jpg) no-repeat center center;
+	background-size:cover;
+}
+#top_fit_img ul:last-child li:nth-child(2) div{
+	background:url(../newimages/female_fit_01.jpg) no-repeat center center;
+	background-size:cover;
+}
+#top_fit_img ul:last-child li:last-child{
+	background:url(../newimages/female_fit_02.jpg) no-repeat center center;
+	background-size:cover;
+}
+#top_fit_img ul:last-child li:last-child div{
+	background:url(../newimages/male_fit_01.jpg) no-repeat center center;
+	background-size:cover;
+}
+
+
+.top_a_white{
+	color:#ffffff;
+	opacity:1 !important;
+	text-decoration:none;
+}
+.top_a_gray{
+	color:#707070;
+	opacity:1 !important;
+	text-decoration:none;
+}
+
+.toppc{
+	display:block;	
+}
+.topsp{
+	display:none;	
+}
+
+
+@media screen and (max-width : 640px){
+
+
+.toppc{
+	display:none;	
+}
+.topsp{
+	display:block;
+}
+
+
+
+
+
+#bird_box ul li{
+	width:50px;
+	height:50px;
+	margin-top:-25px;
+	margin-left:-25px;
+}
+#bird_box ul li img{
+	width:50px;
+	height:50px;
+}
+#top_logo{
+	margin-left:-12px;
+	margin-top:-120px;
+}
+#top_logo img{
+	width:24px;
+}
+
+
+#top_title{
+	width:19%;
+	left:5%;
+	bottom:44%;
+}
+#top_title_hukidashi{
+	width:14%;
+	left:14.4%;
+	bottom:66%;
+}
+#top_img01{
+	width:22%;
+}
+#top_img02{
+	width:27%;
+	right:34%;
+}
+#top_img03{
+	width:29%;
+	left:0;
+}
+
+.top_btn_movie_out{
+	height:380px;
+}
+#top_btn_movie_cm{
+	height:520px;
+}
+#top_fit{
+	height:380px;
+}
+#top_fit_img{
+	height:380px;
+}
+#top_fit_img ul{
+	height:190px;
+}
+#top_fit_img ul li{
+	height:190px;
+}
+#top_fit_img ul li div{
+	height:190px;
+}
+
+
+.top_btn_movie_cm_txt{
+	font-size:270%;
+}
+
+.top_btn_movie_txt_big img{
+	height:34px;
+}
+
+#top_lineup_img{
+	display:none;
+}
+#top_lineup_txt{
+	display:table-cell;
+	width:100%;
+}
+
+
+
+}

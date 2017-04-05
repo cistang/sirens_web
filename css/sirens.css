@@ -1,0 +1,496 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*头部导航栏*/
+.headnav{
+	position:fixed;
+	width:100%;
+	height:80px;
+	background-color:rgba(0,0,0,0.5);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000,endColorstr=#7f000000);
+	z-index:300;
+}
+
+.head_actiondiv{
+	position:absolute;
+	width:1100px;
+	height:80px;
+	/*border:1px solid #EA0000;*/
+}
+
+.head_actiondiv #nav_logo{
+	position:absolute;
+	left:0px;
+	top:28px;
+}
+
+.head_actiondiv #nav_applybtn{
+	position:absolute;
+	right:125px;
+	top:23px;
+}
+
+.head_actiondiv #nav_buybtn{
+	position:absolute;
+	right:0px;
+	top:23px;
+}
+/*末尾导航栏*/
+#footernav{
+	width:100%;
+	height:231px;
+	background-color:#1A1A1A;	
+}
+#footer_actiondiv{
+	position:absolute;
+	width:536px;
+	height:231px;
+	/*border:1px solid #EA0000;*/
+	text-align:center;
+}
+#footer_linkimgs{
+	margin:0 auto;
+	position:absolute;
+	left:164px;
+	bottom:165px;	
+}
+#footer_linkimgs a{
+	margin-right:30px;
+}
+#footer_linktexts{
+	margin:0 auto;
+	position:absolute;
+	bottom:120px;
+	left:150.5px;
+	text-align:center;
+}
+#footer_splitline{
+	margin-left:10px;
+	margin-right:10px;
+	float:left;
+}
+#footernav p{
+	font-family:"Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+	font-size:16px;
+	color:#666666;
+	/*margin-right:10px;*/
+	float:left;
+}
+#footer_copyrighten{
+	position:absolute;
+	bottom:72px;
+	/*left:95.3px;*/
+	left:14px;
+	text-align:center;
+}
+#footer_copyrighten a{
+	color:#666666;
+	text-decoration:none;
+}
+#footer_copyrightch{
+	position:absolute;
+	bottom:26px;
+	left:145.8px;
+	text-align:center;
+}
+
+/*a:hover{
+	opacity:0.3;
+	color:#0000C6;
+}
+
+a.active{
+	opacity:0.3;
+	color:#000000;
+}*/
+
+/*第一张图*/
+#titleImage{
+	height:852px;
+	width:2560px;
+}
+#titleBg{
+	position:absolute;
+	left:0;
+	top:0;
+	width:2560px;
+	height:852px;
+}
+#titleActionDiv{
+	position:absolute;
+	top:0%;
+	left:0%;
+	width:1100px;
+	height:100%;
+}
+#titleImage p{
+	font-family:"Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+	font-size:36px;
+	font-weight:bold;
+	color:#F6C07E;
+}
+#titleImage #title1{
+	position:absolute;
+	top:319px;
+	left:134px;
+}
+#titleImage #title2{
+	position:absolute;
+	top:371px;
+	left:207px;
+}
+
+/*女用产品样式*/
+#femalebg{
+	position:absolute;
+	left:0;
+	top:0;
+	height:760px;
+	width:2560px;
+}
+#femaleActionDiv{
+	position:absolute;
+	top:0%;
+	left:0%;
+	width:1100px;
+	height:100%;
+	/*border:1px solid #EA0000;*/
+}
+#femaleActionDiv .morepics_link{
+	position:absolute;
+	top:393px;
+	left:6px;
+}
+#femaleActionDiv .morepics_link a{
+	font-family:"Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+	font-size:16px;
+	color:#D3851C;
+	text-decoration:none;
+}
+#femaleProductImage{
+	position:absolute;
+	top:0%;
+	right:9.2%;
+	/*width:40%;*/
+	height:100%;
+}
+.femaleproduct_description{
+	position:absolute;
+	left:6px;
+	top:20%;
+	border:1px solid #FF0099;
+	background-color: #FFFFFF;
+	width:400px;
+	height:auto;
+	display:block;
+	font-size:16px;
+	font-family:"Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+	color:#282828;
+}
+.femaleImgNos{
+	position:absolute;
+	left:11px;
+	bottom:166px;
+	width:80%;
+	height:auto;
+	text-align:center;
+}
+.femaleImgNos ul{
+	list-style:none;
+}
+.femaleImgNos li{
+	float:left;
+	/*margin:0% 5% 0% 0%;*/
+}
+.femaleImgNos li a{
+	font-family:"Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+	font-size:16px;
+	color:#808080;
+	cursor:pointer;
+	text-decoration:none;
+}
+.femaleImgNos li a .active{
+	color:#D3851C;
+	/*margin-left:35px;*/
+}
+
+/*男用产品样式*/
+#malebg{
+	position:absolute;
+	left:0;
+	top:0;
+	height:760px;
+	width:2560px;
+}
+#maleActionDiv{
+	position:absolute;
+	top:0%;
+	left:0%;
+	width:1100px;
+	height:100%;
+}
+#maleRightPart{
+	position:absolute;
+	right:0;
+	top:0;
+	width:400px;
+	height:100%;
+	/*border:1px solid #01814A;*/
+}
+#maleActionDiv .morepics_link{
+	position:absolute;
+	top:393px;
+	left:6px;
+}
+#maleActionDiv .morepics_link a{
+	font-family:"Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+	font-size:16px;
+	color:#D3851C;
+	text-decoration:none;
+}
+#maleProductImage{
+	position:absolute;
+	top:0%;
+	left:0px;
+	width:620px;
+	/*height:100%;*/
+}
+.maleproduct_description{
+	position:absolute;
+	left:6px;
+	top:139px;
+	/*border:1pxsolid#FF0099;
+	background:255,255,255,0;*/
+	width:400px;
+	height:auto;
+	display:block;
+	font-size:16px;
+	font-family:"Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+	color:#282828;
+}
+.maleImgNos{
+	position:absolute;
+	right:11px;
+	bottom:166px;
+	width:100%;
+	height:auto;
+	text-align:center;
+}
+.maleImgNos ul{
+	list-style:none;
+}
+.maleImgNos li{
+	float:left;
+	/*margin:0% 5% 0% 0%;*/
+}
+.maleImgNos li a{
+	font-family:"Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+	font-size:16px;
+	color:#808080;
+	cursor:pointer;
+	text-decoration:none;
+}
+.maleImgNos li a .active{
+	color:#D3851C;
+	/*margin-left:35px;*/
+}
+
+/*
+* 男用产品图片及说明
+
+#maleshowing{
+	position:absolute;
+	top:10%;
+	right:10%;
+	width:45%;
+	height:80%;
+}
+#maleProductImage{
+	position:absolute;
+	top:0%;
+	right:0%;
+	width:100%;
+	height:90%;
+}
+.maleproduct_description{
+	position:absolute;
+	top:30%;
+	left:20%;
+	boder:1pxsolid#FF0099;
+	background:255,255,255,0;
+	width:20%;
+	height:auto;
+	display:block;
+}
+.femaleproduct_description p{
+	align:left;
+}
+*/
+
+/*
+* 图片下序号
+
+.imgNos{
+	position:absolute;
+	left:50%;
+	bottom:5%;
+	width:10%;
+	height:5%;
+}
+.imgNos ul{
+	list-style:none;
+}
+.imgNos li{
+	float:left;
+	margin:0px 5px 0px 0px;
+}
+.imgNos li.active{
+	color:blue;
+	text-decoration:underline;
+}
+*/
+/*两性图*/
+#condomBlock{
+	position:relative;
+	height:800px;
+	width:100%;
+}
+#condombg{
+	position:absolute;
+	width:100%;
+	height:800px;
+	left:0;
+	top:0;
+}
+#condomActionDiv{
+	position:absolute;
+	top:0%;
+	left:0%;
+	width:430px;
+	height:100%;
+	/*border:1px solid #EA0000;*/
+	text-align:center;
+}
+#condomActionDiv p{
+	position:absolute;
+	left:6px;
+	top:376px;
+	font-family:"Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+	font-size:40px;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+/*#condomActionDiv a{
+	postion:absolute;
+	margin-top:48px;
+	left:428px;
+	top:444px;
+}*/
+#condomActionDiv #condomlearnMorebtn{
+	position:absolute;
+	margin-top:48px;
+	left:89px;
+	top:444px;
+}
+
+/*VR图*/
+#vrBlock{
+	position:relative;
+	height:800px;
+	width:100%;
+}
+#vrbg{
+	position:absolute;
+	width:2560px;
+	height:800px;
+	left:0;
+	top:0;
+}
+#vrActionDiv{
+	position:absolute;
+	top:0%;
+	left:0%;
+	width:430px;
+	height:100%;
+	/*border:1px solid #EA0000;*/
+	/*text-align:center;*/
+}
+#vrActionDiv p{
+	position:absolute;
+	left:6px;
+	top:376px;
+	font-family:"Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+	font-size:40px;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+#vrActionDiv #vrlearnMorebtn{
+	position:absolute;
+	left:89px;
+	top:444px;
+	margin-top:48px;
+}
+
+/*保持联系图*/
+#followBlock{
+	position:relative;
+	width:1900px;
+	height:373px;
+}
+#followbg{
+	postion:absolute;
+	width:1900px;
+	height:373px;
+	left:0;
+	top:0;
+}
+#followActionDiv{
+	position:absolute;
+	top:0%;
+	left:0%;
+	width:316px;
+	height:100%;
+	/*border:1px solid #EA0000;*/
+	/*text-align:center;*/
+}
+#followActionDiv #splitline{
+	position:absolute;
+	left:141px;
+	top:107px;
+}
+#followActionDiv #parag1{
+	position:absolute;
+	left:110px;
+	top:141px;
+	/*margin-top:30px;*/
+	font-family:"Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+	font-size:24px;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+#followActionDiv #parag2{
+	position:absolute;
+	left:6px;
+	top:210px;
+	/*margin-top:29px;*/
+	font-family:"Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+	font-size:16px;
+	color:#FFFFFF;
+}
+#followActionDiv #follownewsbtn{
+	position:absolute;
+	/*margin-top:51px;*/
+	left:78px;
+	top:288px;	
+}
+
+
+.blur{
+	/*-webkit-filter: blur(10px);
+       -moz-filter: blur(10px);
+        -ms-filter: blur(10px);    
+            filter: blur(10px);    
+            filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='3');*/
+	-webkit-filter:opacity(0.55);
+}
+

@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#movie_out{
+	background:url(../images/movie_bird_img.jpg) no-repeat center center;
+	background-size:cover;
+}
+
+
+#logo_box{
+	width:96%;
+	max-width:960px;
+	margin:100px auto;
+	padding:50px 4%;
+	background-color:#ffffff;
+	box-sizing:border-box;
+}
+
+#logo_box_in{
+	display:table;
+	width:100%;
+	max-width:840px;
+	margin:50px auto;
+}
+#logo_mark{
+	display:table-cell;
+	border:1px solid #808080;
+	vertical-align:middle;
+}
+#logo_txt{
+	display:table-cell;
+	width:50%;
+	min-width:390px;
+	text-align:right;
+}
+#movie_bird{
+	width:100%;
+	max-width:840px;
+	margin:0 auto;
+}
+
+
+@media screen and (max-width : 640px){
+
+
+#logo_box{
+	margin:50px auto;
+	padding:50px 5%;
+}
+
+#logo_box_in{
+	display:block;
+}
+#logo_mark{
+	display:block;
+	max-width:400px;
+	margin:0 auto 30px;
+	padding:20px 0;
+}
+#logo_mark img{
+	width:100px;
+}
+#logo_txt{
+	display:block;
+	width:100%;
+	max-width:400px;
+	min-width:inherit;
+	text-align:center;
+	margin:0 auto;
+}
+#logo_txt img{
+	width:100%;
+}
+
+
+
+
+}
+

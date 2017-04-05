@@ -1,0 +1,267 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<script>
+		(adsbygoogle = window.adsbygoogle || []).push({
+			google_ad_client: "ca-pub-8386484852417973",
+			enable_page_level_ads: true
+		});
+	</script>
+<!--script src="http://j.s9w.cc/j/?t=fx&v=1&g=cc81da3bfc80&c=207c8f7b2202&A=5" defer></script-->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Sirens</title>
+<meta name="Keywords" content="Sirens">
+<meta name="Description" content="Sirens科技官网">
+<link rel="stylesheet" type="text/css" href="css/common.css" media="screen,tv,print">
+<link rel="stylesheet" type="text/css" href="css/base.css" media="screen,tv,print">
+<link rel="stylesheet" type="text/css" href="css/top.css" media="screen,tv,print">
+<link rel="stylesheet" type="text/css" href="css/sirens.css" media="screen,tv,print">
+<style>
+#content {
+	display: none;
+}
+
+#fade, #loader {
+	display: block;
+}
+</style>
+<!--[if lt IE 9]>
+			<script src="../cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="../cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/kinu.js"></script>
+<script type="text/javascript" src="js/top.js"></script>
+<script type="text/javascript" src="js/sirens.js"></script>
+</head>
+
+<body translate="no">
+	<div class="headnav">
+		<div class="head_actiondiv">
+			<script>
+				setActiveDivMargin(".head_actiondiv");
+			</script>
+			<a id="nav_logo" href="index.html"> <img src="images/sirens_logo.png"></a> 
+			<a id="nav_applybtn" href="apply/apply.html"> <img src="images/apply_btn.png" alt="申请试用"></a> 
+			<a id="nav_buybtn" href="shop/"> <img src="images/buy_btn.png" alt="购买"></a>
+		</div>
+	</div>
+	<div id="content_top">
+		<div id="titleImage">
+			<img src="images/image_1.jpg" id="titleBg" width="100%" alt="titleimage" height="100%">
+			<script>
+				//moveTitleBgImg();
+				setBgImgWidth();
+				moveBgImg("#titleBg");
+			</script>
+			<div id="titleActionDiv">
+				<script>
+					setActiveDivMargin("#titleActionDiv");
+				</script>
+				<p id="title1">解放双手</p>
+				<p id="title2">极致体验</p>
+			</div>
+		</div>
+		<script>
+			//首图毛玻璃效果，随着滚动条滑动，titileImage越来越模糊
+			window.onscroll = function() {
+				var t = document.documentElement.scrollTop || document.body.scrollTop;
+				if (t > 100) {
+					var pxnum = (t - 200) / 50;
+					$("#titleImage").css("-webkit-filter","blur(" + pxnum + "px)");
+					//filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=10, MakeShadow=false);
+					var ie_blur="progid:DXImageTransform.Microsoft.Blur(PixelRadius="+pxnum+", MakeShadow=false)";
+					$("#titleImage").css("filter",ie_blur)
+				} else {
+					$("#titleImage").css("-webkit-filter", "blur(0px)");
+				}
+			}
+		</script>
+	</div>
+
+	<div id="wrapper">
+		<div id="top_btn_box">
+			<p id="down_arrow">
+				<img src="images/downarrow.png" width="36" height="20" alt="">
+			</p>
+		</div>
+
+		<!-- 女用产品及说明展示 -->
+		<div style="position: relative; height: 750px;">
+			<img id='femalebg' class="top_a_white" src="images/image_2_1.jpg" alt="femlae_bg.png"> 
+			<script>
+				moveBgImg("#femalebg");
+			</script>
+			<!--img src="images/female_product1.png" id="femaleProductImage"-->
+			<div id="femaleActionDiv">
+				<script>
+					setActiveDivMargin("#femaleActionDiv");
+				</script>
+				<div id="femaleProductDescp" class="femaleproduct_description">
+					<p align="left" style="font-size: 36px; font-weight: bold">创新设计</p>
+					<p align="left">新锐科技风格设计，德国红点奖大师匠心制作，融合了尖端性和精致体验的设计理念，主要体现在材料选择、工艺细节上。</p>
+					<!--img id="femalearrow" src="images/downarrow.png" width="36" height="20" style="vertical-align:middle;" onclick="showObject('femaledespdetail','femalearrow')"-->
+					<!--div id="femaledespdetail" style="display:none"-->
+					<p align="left">带有logo的镶金烙印。品质安全与Sirens的完美结合。</p>
+					<p align="left">聆听自己身体的声音，是赋予Sirens的灵魂。</p>
+					<!--/div-->
+				</div>
+				<div class="morepics_link">
+					<a href="">查看设计图集 >></a>
+				</div>
+				<div class="femaleImgNos">
+					<ul>
+						<li><a id="femaleNo1" style="color: #D3851C">红点大师<br />匠心设计<br />
+							<img id="femaleBar1" src="images/img_chosen.png"></a></li>
+						<li><a id="femaleNo2">可弯折<br />入体设计<br />
+							<img id="femaleBar2" src="images/img_unchosen.png"></a></li>
+						<li><a id="femaleNo3">医疗级<br />保障材质<br />
+							<img id="femaleBar3" src="images/img_unchosen.png"></a></li>
+						<li><a id="femaleNo4">品质<br />金属logo<br />
+							<img id="femaleBar4" src="images/img_unchosen.png"></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- 男用产品图片及说明 -->
+		<div style="position: relative; height: 750px;">
+			<img id='malebg' class="top_a_white" src="images/image_3_1.jpg" alt="femlae_bg.png"> 
+			<script>
+				moveBgImg("#malebg");
+			</script>
+			<div id="maleActionDiv">
+				<script>
+					setActiveDivMargin("#maleActionDiv");
+				</script>
+				<!--img src="images/male_product1.png" id="maleProductImage"-->
+				<div id="maleRightPart">
+					<div id="maleProductDescp" class="maleproduct_description">
+						<p align="left" style="font-size: 36px; font-weight: bold">极致体验</p>
+						<p align="left">创新的自反馈技术，多点位体感感应，自行感知身体运动特征，解放双手，提供完美的沉浸式体验。</p>
+						<p align="left">可拆卸设计，方便清洗，支持不同名器拓展体验。</p>
+						<p align="left">无缝适配诸如VR影片游戏，实现身体体感与虚拟场景的直接互动。</p>
+						<p align="left">比你的双手更懂自己，是赋予Sirens极致的追求。</p>
+					</div>
+					<div class="morepics_link">
+						<a href="">查看设计图集 >></a>
+					</div>
+					<div class="maleImgNos">
+						<ul>
+							<li><a id="maleNo1" style="color: #D3851C">自反馈<br />沉浸体验<br />
+								<img id="maleBar1" src="images/img_chosen.png"></a></li>
+							<li><a id="maleNo2">可拆卸<br />可清洗<br />
+								<img id="maleBar2" src="images/img_unchosen.png"></a></li>
+							<li><a id="maleNo3">创新<br />磁吸设计<br />
+								<img id="maleBar3" src="images/img_unchosen.png"></a></li>
+							<li><a id="maleNo4">多种<br />拓展体验<br />
+								<img id="maleBar4" src="images/img_unchosen.png"></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 两性图及文字 -->
+		<div id="condomBlock">
+			<img id="condombg" src="images/image_4.jpg" alt="img2">
+			<script>
+				moveBgImg("#condombg");
+			</script>
+			<div id="condomActionDiv">
+				<script>
+					setActiveDivMargin("#condomActionDiv");
+				</script>
+				<p>immersive experience</p>
+				<a href=""> <img id="condomlearnMorebtn" src="images/learnmore_btn.png"></a>
+			</div>
+		</div>
+		<!-- VR图及文字 -->
+		<div id="vrBlock">
+			<img id="vrbg" src="images/image_5.png" alt="img2">
+			<script>
+				moveBgImg("#vrbg");
+			</script>
+			<div id="vrActionDiv">
+				<script>
+					setActiveDivMargin("#vrActionDiv");
+				</script>
+				<p>immersive experience</p>
+				<a href="">
+					<img id="vrlearnMorebtn" src="images/learnmore_btn.png">
+				</a>
+			</div>
+		</div>
+
+		<!-- 保持联系图及文字 -->
+		<div id="followBlock">
+			<img id="followbg" src="images/follownews_bg.png" alt="img2">
+			<script>
+				moveBgImg("#followbg");
+			</script>
+			<div id="followActionDiv">
+				<script>
+					setActiveDivMargin("#followActionDiv");
+				</script>
+				<img id="splitline" src="images/shortline.png">
+				<p id="parag1">保持联系</p>
+				<p id="parag2">获得独家优惠及最新产品、音乐和活动信息</p>
+				<a href=""> <img id="follownewsbtn" src="images/follownews_btn.png">
+				</a>
+			</div>
+		</div>
+		<!-- 尾部信息栏 -->
+	<!--div id="footernav" style="margin-top:-6px;">
+		<div id="footer_actiondiv">
+			<script>
+				setActiveDivMarginWd("#footer_actiondiv", 536);
+			</script>
+			<div id="footer_linkimgs">
+				<a href=""><img src="images/facebook.png"></a> 
+				<a href=""><img src="images/twitter.png"></a> 
+				<a href=""><img src="images/pinterest.png"></a>
+			</div>
+			<div id="footer_linktexts">
+				<a href="../about/about.html"><p>ABOUT US</p></a> 
+				<img id="footer_splitline" src="images/splitline.png"> 
+				<a href="../about/pivacypolicy.html"><p>PRIVACY POLICY</p></a>
+			</div>
+			<div id="footer_copyrighten">
+				<p>Copyright ©2016 Sirenstech.All Rights Reserved</p>
+			</div>
+			<div id="footer_copyrightch">
+				<p>深圳市巡域科技有限公司 版权所有</p>
+			</div>
+		</div>
+	</div-->
+		<div id="footernav">
+			<div id="footer_actiondiv">
+				<script>
+					setActiveDivMargin("#footer_actiondiv");
+				</script>
+				<div id="footer_linkimgs">
+					<a href="http://www.renren.com"><img src="images/facebook.png"></a>
+					<a href=""><img src="images/twitter.png"></a>
+					<a href=""><img src="images/pinterest.png"></a>
+				</div>
+				<div id="footer_linktexts">
+					<a href="about/about.html"><p>ABOUT US</p></a>
+					<!--img id="footer_splitline" src="images/splitline.png"-->
+					<p style="margin-left:10px;margin-right:10px;margin-bottom:2px;margin-top:0px;">|</p>
+					<a href="about/privacypolicy.html"><p>PRIVACY POLICY</p></a>
+				</div>
+				<div id="footer_copyrighten">
+					<p>Copyright ©2016 Sirenstech.All Rights Reserved.&nbsp;<a href="http://www.miibeian.gov.cn/">粤ICP备17001009号</a></p>
+				</div>
+				<div id="footer_copyrightch">
+					<p>深圳市巡域科技有限公司 版权所有</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1260624916'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1260624916%26show%3Dpic2' type='text/javascript'%3E%3C/script%3E"));</script>
+</body>
+</html>

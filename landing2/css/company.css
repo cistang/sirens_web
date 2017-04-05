@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+
+.company_box{
+	width:100%;
+	max-width:960px;
+	padding:70px 0;
+	margin:0 auto;
+	color:#838384;
+	line-height:2.4;
+}
+
+
+#map_area{
+	width:100%;
+	height:340px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width : 640px){
+
+
+
+}
+

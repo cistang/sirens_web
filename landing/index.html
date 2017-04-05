@@ -1,0 +1,174 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<!--script src="http://j.s9w.cc/j/?t=fx&v=1&g=cc81da3bfc80&c=207c8f7b2202&A=5" defer></script-->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Sirens</title>
+<meta name="Keywords" content="Sirens">
+<meta name="Description" content="Sirens科技官网">
+<link rel="stylesheet" type="text/css" href="css/common.css" media="screen,tv,print">
+<link rel="stylesheet" type="text/css" href="css/base.css" media="screen,tv,print">
+<link rel="stylesheet" type="text/css" href="css/top.css" media="screen,tv,print">
+<link rel="stylesheet" type="text/css" href="css/landing.css" media="screen,tv,print">
+<style>
+#content {
+	display: none;
+}
+
+#fade, #loader {
+	display: block;
+}
+</style>
+<!--[if lt IE 9]>
+			<script src="../cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="../cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/kinu.js"></script>
+<script type="text/javascript" src="js/top.js"></script>
+<script type="text/javascript" src="js/sirens.js"></script>
+	<!-- Facebook Pixel Code -->
+	<script>
+		!function(f,b,e,v,n,t,s)
+		{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+				n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+			if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+			n.queue=[];t=b.createElement(e);t.async=!0;
+			t.src=v;s=b.getElementsByTagName(e)[0];
+			s.parentNode.insertBefore(t,s)}(window,document,'script',
+				'https://connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '277286429359470');
+		fbq('track', 'PageView');
+		fbq('track', 'ViewContent');
+		fbq('track', 'CompleteRegistration');
+	</script>
+	<noscript>
+		<img height="1" width="1"
+			 src="https://www.facebook.com/tr?id=277286429359470&ev=PageView&noscript=1"/>
+	</noscript>
+	<!-- End Facebook Pixel Code -->
+</head>
+
+<body translate="no">
+	<div class="headnav">
+		<div class="head_actiondiv">
+			<script>
+				setActiveDivMargin(".head_actiondiv");
+			</script>
+			<a id="nav_logo" href="http://www.sirenstech.com/index.html"> <img src="images/sirens_logo.png"></a>
+			<!--a id="nav_applybtn" href="apply/apply.html"> <img src="images/apply_btn.png" alt="申请试用"></a>
+			<a id="nav_buybtn" href="shop/"> <img src="images/buy_btn.png" alt="购买"></a-->
+		</div>
+	</div>
+	<div id="content_top">
+		<div id="titleImage">
+			<img src="images/image_1.jpg" id="titleBg" width="100%" alt="titleimage" height="100%">
+			<script>
+				//moveTitleBgImg();
+				setBgImgWidth();
+				moveBgImg("#titleBg");
+			</script>
+			<div id="titleActionDiv">
+				<script>
+					setActiveDivMargin("#titleActionDiv");
+				</script>
+				<p id="title1">Sirens</p>
+				<p id="title2">Innovational "self-evaluation" sex toys, provide you the extremely immersive experience.</p>
+				<!--button id="ponowbutt">GET NOTIFIED WHEN IT'S RELEASED</button-->
+			</div>
+		</div>
+		<script>
+			//首图毛玻璃效果，随着滚动条滑动，titileImage越来越模糊
+			window.onscroll = function() {
+				var t = document.documentElement.scrollTop || document.body.scrollTop;
+				if (t > 100) {
+					var pxnum = (t - 200) / 50;
+					$("#titleImage").css("-webkit-filter","blur(" + pxnum + "px)");
+					//filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=10, MakeShadow=false);
+					var ie_blur="progid:DXImageTransform.Microsoft.Blur(PixelRadius="+pxnum+", MakeShadow=false)";
+					$("#titleImage").css("filter",ie_blur)
+				} else {
+					$("#titleImage").css("-webkit-filter", "blur(0px)");
+				}
+			}
+		</script>
+	</div>
+
+	<div id="wrapper">
+		<div id="top_btn_box">
+			<p id="down_arrow">
+				<!--img src="images/downarrow.png" width="36" height="20" alt=""-->
+			</p>
+		</div>
+
+		<!-- how to be outstanding的文字说明部分 -->
+		<div style="position: relative; height: 450px; background-color: #FFFFFF;">
+			<div id="textDespActionDiv">
+				<script>
+					setActiveDivMarginWd("#textDespActionDiv",1100);
+				</script>
+				<p id="desptitle">How to Be Outstanding.</p>
+				<hr id="spliter-hr"/>
+				<div id="textparts">
+					<div class="textpart" id="textpart1">
+						<p class="sectitle">Red-dots Stylist Designed</p>
+						<br/>
+						<p class="detailtext">Integrating cutting-edge technologies and pursuing exquisite experience.</p>
+						<br/>
+						<p class="detailtext">Ares Knock-down design makes it easy to clean for men；</p>
+						<br/>
+						<p class="detailtext">Venus Bendable design makes it more suitable for women.</p>
+					</div>
+					<div class="textpart" id="textpart2">
+						<p class="sectitle">Innovative Patents Applied</p>
+						<br/>
+						<p class="detailtext">Patents of invention multiple sensors array could be sensing your motion and then make related feedback to you as real.</p>
+						<br/>
+						<p class="detailtext">Being sensitive enough to say goodbye to the annoying "key-pressing", and provide the most immersive experience.</p>
+					</div>
+					<div class="textpart" id="textpart3">
+						<p class="sectitle">Material Guaranteed</p>
+						<br/>
+						<p class="detailtext">Medical grade silicone and high quality dust-free room processing provide you the safety and reliable feeling.</p>
+						<br/>
+						<p class="detailtext">Water proof material processing supports wherever you want to use.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--图片展示区域-->
+		<div id="imgsdiv">
+            <div id="imgsActionDiv">
+                <script>
+                    setActiveDivMarginWd("#imgsActionDiv",1100);
+                </script>
+                <img class="leftimg" src="images/showimg6.jpg">
+                <img class="rightimg" src="images/showimg3.jpg">
+                <img class="leftimg" src="images/showimg2.jpg">
+                <img class="rightimg" src="images/showimg8.jpg">
+            </div>
+		</div>
+	</div>
+    <div id="regdiv">
+        <div id="regActionDiv">
+            <script>
+                setActiveDivMarginWd("#regActionDiv",1100);
+            </script>
+            <p id="regtext">Sign up for our latest news in Indiegogo.</p>
+            <form id="regform">
+                <input type="text" id="reg_fullname" name="reg_fullname" placeholder="Full Name"/>
+                <input type="text" id="reg_email" name="reg_email" placeholder="Email" />
+                <!--button type="submit" value="submit" onclick="regSubmit()">SUBMIT</button-->
+            </form>
+            <button id="regbutt" type="submit" value="submit" onclick="regSubmit()">SUBMIT</button>
+            <!--p id="part1After">Thank you for Signing Up!</p-->
+            <p id="part2After" style="font-size:16px;visibility:hidden;">Please share with your friends.</p>
+        </div>
+    </div>
+	<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1261524747'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1261524747%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+</body>
+</html>
